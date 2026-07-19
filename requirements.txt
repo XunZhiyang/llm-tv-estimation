@@ -1,0 +1,9 @@
+# Analysis / figure-rendering environment (CPU is enough).
+# The serving engines are NOT listed here: vllm 0.19.1 and sglang 0.5.10.post1
+# pin conflicting dependencies and live in separate venvs — see
+# scripts/setup_vllm_venv.sh and scripts/setup_sglang_venv.sh.
+torch>=2.1
+transformers>=4.51
+numpy>=1.24
+matplotlib>=3.7
+accelerate>=0.30

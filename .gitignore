@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pt
+logs/*
+!logs/.gitkeep
+results/**/*.png
+results/**/*.pdf
+.DS_Store

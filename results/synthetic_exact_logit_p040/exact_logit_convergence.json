@@ -1,0 +1,139 @@
+{
+  "run_info": {
+    "date_utc": "2026-05-07T09:09:21.109997+00:00",
+    "git_sha": "f120d76fe8372f2a71f6bc1ffe9c8541a3d6a69f",
+    "git_branch": "main",
+    "device": "cpu"
+  },
+  "config": {
+    "n": 128,
+    "r": 12,
+    "p": 0.4,
+    "alpha": 0.49,
+    "shift": "symmetric",
+    "eta": 0.01,
+    "delta": 0.2,
+    "seed": 10,
+    "hard_support": false,
+    "true_tv": 0.3883154296875,
+    "active_blocks": 1623,
+    "N_grid": [
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "reps": 512,
+    "single_sample_variance": 0.23360417867646066,
+    "fit_loglog_slope": -0.4929696639430286,
+    "fit_loglog_intercept": -0.9976834375997979
+  },
+  "rows": [
+    {
+      "N": 32,
+      "budget_2nN": 8192,
+      "estimate_mean": 0.3851084083017676,
+      "estimate_std": 0.07970799447226912,
+      "abs_error_mean": 0.06463516196819266,
+      "abs_error_std": 0.046666795338583755,
+      "abs_error_se": 0.0020624004650098334,
+      "theory_abs_error_normal": 0.06817189648535628
+    },
+    {
+      "N": 64,
+      "budget_2nN": 16384,
+      "estimate_mean": 0.3890054105508208,
+      "estimate_std": 0.06082092607868475,
+      "abs_error_mean": 0.049080855244337904,
+      "abs_error_std": 0.03586108689624332,
+      "abs_error_se": 0.0015848511078158558,
+      "theory_abs_error_normal": 0.048204810291142784
+    },
+    {
+      "N": 128,
+      "budget_2nN": 32768,
+      "estimate_mean": 0.38806892163825757,
+      "estimate_std": 0.04243240017611759,
+      "abs_error_mean": 0.03386349572075737,
+      "abs_error_std": 0.025526241889077247,
+      "abs_error_se": 0.0011281111711234143,
+      "theory_abs_error_normal": 0.03408594824267814
+    },
+    {
+      "N": 256,
+      "budget_2nN": 65536,
+      "estimate_mean": 0.3881293402777778,
+      "estimate_std": 0.029593329119902808,
+      "abs_error_mean": 0.023497630225287537,
+      "abs_error_std": 0.017960531537590516,
+      "abs_error_se": 0.0007937508527465689,
+      "theory_abs_error_normal": 0.024102405145571392
+    },
+    {
+      "N": 512,
+      "budget_2nN": 131072,
+      "estimate_mean": 0.38644139453618215,
+      "estimate_std": 0.02176580734867796,
+      "abs_error_mean": 0.01746128891453598,
+      "abs_error_std": 0.013106333315919295,
+      "abs_error_se": 0.0005792235727611064,
+      "theory_abs_error_normal": 0.01704297412133907
+    },
+    {
+      "N": 1024,
+      "budget_2nN": 262144,
+      "estimate_mean": 0.38864667487866955,
+      "estimate_std": 0.015047496179506384,
+      "abs_error_mean": 0.012104931070347023,
+      "abs_error_std": 0.008928660198824202,
+      "abs_error_se": 0.0003945947608436888,
+      "theory_abs_error_normal": 0.012051202572785696
+    },
+    {
+      "N": 2048,
+      "budget_2nN": 524288,
+      "estimate_mean": 0.3887741204464074,
+      "estimate_std": 0.010973706128780118,
+      "abs_error_mean": 0.008639789928089486,
+      "abs_error_std": 0.006770597235743936,
+      "abs_error_se": 0.00029922095112983944,
+      "theory_abs_error_normal": 0.008521487060669535
+    },
+    {
+      "N": 4096,
+      "budget_2nN": 1048576,
+      "estimate_mean": 0.388178430422388,
+      "estimate_std": 0.007439366569620806,
+      "abs_error_mean": 0.0059871095599550155,
+      "abs_error_std": 0.004409915179499007,
+      "abs_error_se": 0.0001948925579925774,
+      "theory_abs_error_normal": 0.006025601286392848
+    },
+    {
+      "N": 8192,
+      "budget_2nN": 2097152,
+      "estimate_mean": 0.3882289366288619,
+      "estimate_std": 0.005386917516701444,
+      "abs_error_mean": 0.0043906319743455035,
+      "abs_error_std": 0.0031162479917424754,
+      "abs_error_se": 0.00013772000542625404,
+      "theory_abs_error_normal": 0.004260743530334767
+    },
+    {
+      "N": 16384,
+      "budget_2nN": 4194304,
+      "estimate_mean": 0.3882198502319028,
+      "estimate_std": 0.003822954102242829,
+      "abs_error_mean": 0.003060699713350547,
+      "abs_error_std": 0.002288649425076938,
+      "abs_error_se": 0.00010114497051441225,
+      "theory_abs_error_normal": 0.003012800643196424
+    }
+  ]
+}
